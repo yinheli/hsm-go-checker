@@ -55,8 +55,8 @@ func main() {
 		return
 	}
 
-	if strings.Contains(hex.EncodeToString(resp[:n]), "4E443030") {
-		fmt.Printf("OK")
+	if strings.Contains(hex.EncodeToString(resp[:n]), "4e443030") {
+		fmt.Println("OK")
 	} else {
 		fmt.Println("error")
 	}
